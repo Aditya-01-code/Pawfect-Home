@@ -1,10 +1,6 @@
 .contact-section {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
   padding: 60px 20px;
   background: linear-gradient(135deg, #e5fff3, #ffe8f0);
-  flex-wrap: wrap;
   width: 100%;
   box-sizing: border-box;
 }
@@ -29,8 +25,9 @@
 
 .contact-left,
 .contact-right {
-  flex: 0 0 48%;
-  max-width: 48%;
+  flex: 1 1 400px;
+  min-width: 300px;
+  
   box-sizing: border-box;
   padding: 20px;
 }
