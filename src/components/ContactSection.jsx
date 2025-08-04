@@ -1,7 +1,6 @@
 import React from "react";
 import "./ContactSection.css";
 
-
 const ContactSection = () => {
   return (
     <section className="contact-section">
@@ -22,12 +21,30 @@ const ContactSection = () => {
         <div className="contact-right">
           <form className="contact-form">
             <h3>Send Us a Message</h3>
-            <input type="text" placeholder=" Call yourself...?" required />
-            <input type="email" placeholder="your@gmail.com..." required />
-            <textarea placeholder="meow your thoughts..." rows="5" required></textarea>
-            <button type="Send"style={{
-    backgroundColor: " #e6532fff"
-  }} >Send the Magic 📨</button>
+            <input
+              type="text"
+              placeholder="Call yourself...?"
+              required
+            />
+            <input
+              type="email"
+              placeholder="your@gmail.com..."
+              required
+            />
+            <textarea
+              placeholder="meow your thoughts..."
+              rows="5"
+              required
+            ></textarea>
+            <button
+              type="submit"
+              style={{
+                backgroundColor: "#e6532f",
+                color: "white",
+              }}
+            >
+              Send the Magic 📨
+            </button>
           </form>
         </div>
       </div>
