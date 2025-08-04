@@ -4,7 +4,9 @@
   align-items: flex-start;  
   padding: 60px 20px;
   background: linear-gradient(135deg, #e5fff3, #ffe8f0);
- flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .contact-wrapper {
@@ -14,7 +16,7 @@
   max-width: 1200px;
   align-items: flex-start;
   margin: 0 auto;
-   width: 100%; 
+  width: 100%; 
   background: #efeaeacc;
   border-radius: 20px;
   backdrop-filter: blur(10px);
